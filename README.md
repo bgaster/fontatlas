@@ -10,11 +10,7 @@ The library is very simply:
 
 which exports two functions:
 
-   createAtlas :: FilePath -> -- ^ A filepath to the .ttf file
-                  Int ->      -- ^ Pixel size
-                  Int ->      -- ^ TextureUnit for the sampler binding
-                  IO (TextureObject, CharInfo)
-
+   createAtlas :: FilePath -> Int -> Int -> IO (TextureObject, CharInfo)
 
 and 
 
